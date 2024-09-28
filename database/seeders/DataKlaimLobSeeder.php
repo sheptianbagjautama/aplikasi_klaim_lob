@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class DataKlaimLobSeeder extends Seeder
 {
@@ -14,6 +15,8 @@ class DataKlaimLobSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $path = base_path() . '/database/seeders/data_klaim_lob.sql';
+        $sql = file_get_contents($path);
+        DB::unprepared($sql);
     }
 }
