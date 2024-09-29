@@ -21,7 +21,7 @@ php artisan db:seed --class=DataKlaimLobSeeder
 php artisan serve
 ```
 
-# Screen Shoot
+# 4. Screen Shoot
 
 ### Berikut interface point no 4: 
 ![point4](https://github.com/user-attachments/assets/71c513b5-607c-47e0-987b-8c6631216852)
@@ -33,3 +33,9 @@ paste di browser atau POSTMAN atau THUNDERCLIENT
 http://localhost:8000/api/kirim-claim-ke-penampungan
 ```
 ![point5](https://github.com/user-attachments/assets/e99ba51f-458b-431f-92f7-64b75334fc10)
+
+
+## 5.Untuk menjalankan unit testing 
+```bash
+php artisan test
+```
