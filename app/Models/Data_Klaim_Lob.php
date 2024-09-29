@@ -11,7 +11,6 @@ class Data_Klaim_Lob extends Model
 
     protected $connection = 'mysql';
     protected $table = 'Data_Klaim_Lob';
-    // protected $primaryKey = 'id_klaim_lob';
     public $timestamps = false;
 
     protected $fillable = [

@@ -11,7 +11,6 @@ class Wilayah_Kerja extends Model
 
     protected $connection = 'mysql';
     protected $table = 'wilayah_kerja';
-    // protected $primaryKey = 'id_wilker';
     public $timestamps = false;
 
     protected $fillable = [

@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\Models\Wilayah_Kerja;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class WilayahKerjaSeeder extends Seeder
